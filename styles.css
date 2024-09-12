@@ -1,0 +1,105 @@
+/* Propriétés de texte */
+/* Définit la couleur du texte */
+.color {
+    color: blue;
+}
+
+/* Spécifie la police du texte */
+.font-family {
+    font-family: Arial, sans-serif;
+}
+
+/* Détermine la taille de la police */
+.font-size {
+    font-size: 20px;
+}
+
+/* Aligne le texte (gauche, centre, droite) */
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+/* Propriétés de boîte */
+/* Espace autour de l'élément */
+.margin {
+    margin: 20px;
+    background-color: lightgray;
+}
+
+/* Espace entre le contenu de l'élément et ses bordures */
+.padding {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+/* Définit les bordures autour de l'élément */
+.border {
+    border: 2px solid black;
+}
+
+/* Spécifient la largeur et la hauteur de l'élément */
+.width-height {
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+/* Propriétés de fond */
+/* Définit la couleur de fond */
+.background-color {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+}
+
+/* Ajoute une image de fond */
+.background-image {
+    background-image: url('https://via.placeholder.com/200x100');
+    width: 200px;
+    height: 100px;
+}
+
+/* Propriétés de disposition */
+/* Définit comment un élément est affiché (bloc, en ligne, etc.) */
+.display-block {
+    display: block;
+    background-color: lightgray;
+}
+
+.display-inline {
+    display: inline;
+    background-color: lightblue;
+}
+
+/* Spécifie la méthode de positionnement de l'élément (relative, absolute, fixed) */
+.position-relative {
+    position: relative;
+    top: 20px;
+    background-color: lightgreen;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+}
+
+/* Permet de faire flotter un élément à gauche ou à droite */
+.float-left {
+    float: left;
+    background-color: lightyellow;
+}
+
+.float-right {
+    float: right;
+    background-color: lightpink;
+}
