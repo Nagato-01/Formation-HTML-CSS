@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Propriétés du conteneur */
+.container {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    flex-direction: row; /* Aligne les éléments en ligne */
+}
+
+.column {
+    flex-direction: column; /* Aligne les éléments en colonne */
+}
+
+.justify-center {
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.justify-around {
+    justify-content: space-around; /* Distribue l'espace autour des éléments */
+}
+
+.grow-shrink {
+    justify-content: space-between; /* Distribue l'espace entre les éléments */
+}
+
+/* Propriétés des éléments */
+.item {
+    flex-basis: 100px; /* Largeur de base des éléments */
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.item1 {
+    background-color: lightcoral;
+}
+
+.item2 {
+    background-color: lightgreen;
+}
+
+.item3 {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Propriétés flex-grow et flex-shrink */
+.grow-shrink .item {
+    flex-grow: 1; /* Les éléments vont grandir pour remplir l'espace disponible */
+    flex-shrink: 1; /* Les éléments vont rétrécir si nécessaire */
+}
