@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #carousel img {
+            display: none; 
+            width: 300px;  
+            height: 200px; 
+        }
+        #carousel img.active {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel">
+        <img src="https://via.placeholder.com/300x200.png?text=Image+1" alt="Image 1" class="active">
+        <img src="https://via.placeholder.com/300x200.png?text=Image+2" alt="Image 2">
+        <img src="https://via.placeholder.com/300x200.png?text=Image+3" alt="Image 3">
+        <img src="https://via.placeholder.com/300x200.png?text=Image+4" alt="Image 4">
+        <img src="https://via.placeholder.com/300x200.png?text=Image+5" alt="Image 5">
+        <button id="prevBtn">Précédent</button>
+        <button id="nextBtn">Suivant</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
