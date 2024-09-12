@@ -1,0 +1,32 @@
+/* Styles pour le titre principal */
+.main-title {
+    color: #2c3e50;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Styles pour les paragraphes */
+.intro, .content {
+    margin: 10px;
+    text-align: justify;
+}
+
+/* Styles pour la liste non ordonnée */
+.bullet-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Styles pour le conteneur flex */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    flex-grow: 1;
+    text-align: center;
+}
